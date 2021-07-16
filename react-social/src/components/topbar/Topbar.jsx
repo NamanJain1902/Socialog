@@ -1,5 +1,5 @@
 import "./Topbar.css";
-import {Search, Person, Chat, Notifications} from "@material-ui/icons";
+import {Search, Person, Chat, Notifications, ArrowDropDown} from "@material-ui/icons";
 
 export default function Topbar() {
   return (
@@ -7,7 +7,7 @@ export default function Topbar() {
       <div className="topbar__left">
         <div className="topbar__left__content">
           <div className="topbar__left__logo">
-            <a href="" ><span>S</span>ocialog</a>
+            <a href="" ><span style={{fontWeight: "bold"}}>S</span>ocialog</a>
           </div>
         </div>
       </div>
@@ -32,10 +32,16 @@ export default function Topbar() {
         </div>
 
         <div className="topbar__profile">
-          {/* <button className="topbar__profile"> */}
+          <button className="topbar__profile" style={{
+              display: "flex",
+              alignItems: "center",
+              backgroundColor: "inherit",
+              border: "none"
+            }}>
             <img className="topbar__profile__img" src="/assets/member-2.png" alt="profile image"/>
-            {/* <span>Full Name</span> */}
-          {/* </button> */}
+            <span style={{textTransform: "uppercase", marginRight: "20px"}}>OO7</span>
+            <ArrowDropDown />
+          </button>
         </div>
       </div>
 
