@@ -1,0 +1,69 @@
+.topbar__container{
+  position: sticky;
+  top: 0;
+  height: 60px;
+  background: #0f6be2;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.topbar__left{
+  flex: 3;
+}
+.topbar__center{
+  flex: 5;
+}
+.topbar__right{
+  display: flex;
+  flex: 4;
+  align-items: center;
+  justify-content: space-between;
+}
+.topbar__left__logo{
+  cursor: pointer;
+}
+.topbar__left__content a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5em;
+}
+
+.topbar__center__content > .searchbar{
+  width: 100%;
+  height: 30px;
+  background-color: #efefef;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.topbar__center__content > .searchbar > .search__icon{
+  font-size: 20px !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-right: 2px solid black;
+}
+.topbar__center__content > .searchbar > .search__input{
+  height: 30px;
+  border: 30px;
+  width: 100%;
+}
+.topbar__center__content > .searchbar > .search__input{
+ outline: none;
+}
+.topbar__right__content{
+  display: flex;
+}
+.topbar__right__content ul{
+  display: flex;
+}
+.topbar__right__content ul > li{
+  list-style: none;
+}
+.topbar__right__content li > a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 2.5em;
+}
