@@ -29,13 +29,15 @@ export default function Topbar() {
             <li><a href="#"><Chat/></a></li>
             <li><a href="#"><Notifications/></a></li>
           </ul>
-
-          <div className="topbar__profile">
-            <img className="topbar__profile__img" src="" alt="profile image"/>
-            <span>Full Name</span>
-          </div>
-
         </div>
+
+        <div className="topbar__profile">
+          {/* <button className="topbar__profile"> */}
+            <img className="topbar__profile__img" src="/assets/member-2.png" alt="profile image"/>
+            {/* <span>Full Name</span> */}
+          {/* </button> */}
+        </div>
+
       </div>
     </div>
   )
