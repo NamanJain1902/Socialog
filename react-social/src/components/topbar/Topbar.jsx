@@ -37,8 +37,8 @@ export default function Topbar() {
             {/* <span>Full Name</span> */}
           {/* </button> */}
         </div>
-
       </div>
+
     </div>
   )
 }
